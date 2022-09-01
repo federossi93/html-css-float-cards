@@ -54,15 +54,11 @@ img{
 }
 
 .col{
-    box-shadow: 0 0 10px var(--bg);
+    width: calc((100% / 3) - 60px);
     background-color:var(--bg);
-    color: var(--text);
+    box-shadow: 0 0 10px rgb(34, 34, 34);
     float: left;
-    width: calc(100% / 3 - 60px);
-    width: 300px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin: 20px;
 }
 
 div>p{
