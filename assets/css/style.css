@@ -1,0 +1,16 @@
+/*#Utilities*/
+:root{
+    --bg: #0F0E17;
+    --link: #35A7B4;
+    --title: #E53170;
+    --text: #FEFEFD;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*#Utilities*/
+
